@@ -44,5 +44,4 @@ async def process_game_button(message: Message):
     
     winner = get_winner(message.text, bot_choice)
     await message.answer(text=LEXICON_RU[winner], reply_markup=yes_no_kb)
-
     
