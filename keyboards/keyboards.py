@@ -37,4 +37,3 @@ game_kb: ReplyKeyboardMarkup = kb_builder_for_game.as_markup(resize_keyboard=Tru
 
 
 
-
